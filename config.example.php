@@ -16,18 +16,18 @@ $cfg_auth = "";
 $cfg_log_errors = true;
 
 // your primary nameserver
-
+// This option was used for scripting updates for replication I believe but it's not documented and it's not used
 $cfg_primary_ns = "";
 
 // Database connection information.
 // See http://pear.php.net/packages/MDB2 for supported database types.
 
-$cfg_db_type = "";
-$cfg_db_name = "";
-$cfg_db_table = "";
-$cfg_db_host = "";
-$cfg_db_user = "";
-$cfg_db_pass = "";
+$cfg_db_type = "mysql";
+$cfg_db_name = "dns";
+$cfg_db_table = "records";
+$cfg_db_host = "localhost";
+$cfg_db_user = "someuser";
+$cfg_db_pass = "somepassword";
 
 // show the "Update Servers" button. You need to configure the dns_forbidden.update script for this to work
 $cfg_updateservers = false;
