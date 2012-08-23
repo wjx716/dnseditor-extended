@@ -21,7 +21,7 @@ $cfg_primary_ns = "";
 
 // Database connection information.
 // See http://pear.php.net/packages/MDB2 for supported database types.
-
+$cfg_svc_name = "";
 $cfg_db_type = "";
 $cfg_db_name = "";
 $cfg_db_table = "";
